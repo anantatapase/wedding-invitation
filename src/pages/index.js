@@ -21,45 +21,21 @@ function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
   const isInvitation = getQueryValue(location, 'type') === 'invitation';
   const firstName = guestName.replace(/ .*/, '');
-  const isAnonymGuest = guestName === '' && !isInvitation;
   const codeLink = getQueryValue(location, 'code') || '';
   const finalTicketLink = `code=${codeLink}&name=${guestName}`;
 
-  const [showDetailContent, setShowDetailContent] = useState(false);
-
-  const handleClickDetail = () => {
-    setShowDetailContent(true);
-  };
-
-  const renderDetailContent = () => {
-    if (!showDetailContent) return null;
-
-    return (
-      <Fragment>
-        <HelloSection isInvitation={isInvitation} />
-        <WeddingSection isInvitation={isInvitation} />
-        {isInvitation && <CovidSection />}
-        {isInvitation && <LocationSection />}
-        <StorySection />
-        <PhotoSection />
-        <WishesSection />
-        <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
-        <FooterSection isInvitation={isInvitation} />
-      </Fragment>
-    );
-  };
-
   return (
     <MainLayout>
-      <WelcomeSection
-        guestName={guestName}
-        isAnonymGuest={isAnonymGuest}
-        isInvitation={isInvitation}
-        location={location}
-        codeLink={finalTicketLink}
-        onClickDetail={handleClickDetail}
-      />
-      {renderDetailContent()}
+      <WelcomeSection />
+      <HelloSection isInvitation={isInvitation} />
+      <WeddingSection isInvitation={isInvitation} />
+      {isInvitation && <CovidSection />}
+      {isInvitation && <LocationSection />}
+      <StorySection />
+      <PhotoSection />
+      <WishesSection />
+      <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
+      <FooterSection isInvitation={isInvitation} />
       <FloatingMusic />
     </MainLayout>
   );
