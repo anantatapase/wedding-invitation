@@ -26,14 +26,14 @@ export const styBackground = css`
   }
 
   h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     line-height: 1.5;
     font-family: 'Cookie', cursive;
     color: #fff;
   }
 
   h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff;
     font-weight: 400;
     font-family: 'Cookie', cursive;

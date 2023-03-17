@@ -62,10 +62,6 @@ a:focus {
   text-decoration: none;
 }
 
-p {
-  margin-bottom: 20px;
-}
-
 h1,
 h2,
 h3,
@@ -76,7 +72,7 @@ figure {
   color: #000;
   font-family: 'Work Sans', Arial, sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
 }
 
 ::-webkit-selection {
@@ -1057,16 +1053,12 @@ form label {
   }
 }
 
-.heart {
-  position: absolute;
-  top: 4em;
-  left: 0;
-  right: 0;
-  z-index: 99;
-  animation: pulse 1s ease infinite;
+.pulse {
+  animation: pulse 1s ease infinite;  
 }
-.heart i {
-  font-size: 20px;
+
+.pulse i {
+  font-size: 18px;
   background: #fff;
   padding: 20px;
   color: #f14e95;
@@ -1075,8 +1067,17 @@ form label {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
+.heart-1 {
+  position: absolute;
+  top: 4em;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
 @media screen and (max-width: 768px) {
-  .heart {
+  .heart-1 {
     display: none;
   }
 }
@@ -1097,7 +1098,7 @@ form label {
 }
 .couple-half .groom,
 .couple-half .bride {
-  float: left;
+  float: right;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1912,7 +1913,7 @@ form label {
   font-family: 'Cookie', cursive !important;
 }
 
-.and-love {
+.heart-2 {
   display: none;
 }
 
@@ -1932,31 +1933,18 @@ form label {
 }
 
 /* styles for iPhone 6/7/8 plus */
-@media only screen and (max-width: 420px) {
-  .btn-see-detail {
-    margin-top: 50px !important;
-  }
-
-  /* hello sections */
-  .hs {
-    margin-top: 22px !important;
-    margin-bottom: 32px !important;
-  }
-
+@media only screen and (max-width: 480px) {
   .parent-name {
-    margin-top: -16px !important;
+    margin-top: -8px !important;
   }
 
-  .parent-name__top {
-    margin-bottom: -8px;
-  }
-
-  .and-love {
+  .heart-2 {
     display: block;
     text-align: center;
-    font-size: 5em !important;
+    font-size: 1em !important;
     color: rgba(241, 78, 149, 0.8);
     font-weight: bold;
+    margin-bottom: 4px;
   }
 
   .main-font__wedding {

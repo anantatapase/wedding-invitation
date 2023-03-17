@@ -37,16 +37,6 @@ function WelcomeSection() {
 }
 
 WelcomeSection.propTypes = {
-  guestName: string.isRequired,
-  isInvitation: bool.isRequired,
-  isAnonymGuest: bool.isRequired,
-  location: object.isRequired,
-  codeLink: string,
-  onClickDetail: func.isRequired,
-};
-
-WelcomeSection.defaultProps = {
-  codeLink: '',
 };
 
 export default WelcomeSection;

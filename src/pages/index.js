@@ -27,7 +27,7 @@ function Home({ location }) {
   return (
     <MainLayout>
       <WelcomeSection />
-      <HelloSection isInvitation={isInvitation} />
+      <HelloSection />
       <WeddingSection isInvitation={isInvitation} />
       {isInvitation && <CovidSection />}
       {isInvitation && <LocationSection />}
