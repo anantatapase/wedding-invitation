@@ -1,7 +1,7 @@
-import { css, keyframes } from '@emotion/core';
+import { css } from '@emotion/core';
 import Background from '@assets/images/bg-welcome.jpg';
 
-export const styHero = css`
+export const styContainer = css`
   width: 100%;
   height: 100vh;
 `;
@@ -12,47 +12,28 @@ export const styBackground = css`
   background-repeat: no-repeat;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 400px) {
-    .title {
-      font-size: 40px;
-    }
-
-    .sub-title {
-      font-size: 28px;
-    }
+  img.ganesh {
+    margin-top: 15px;
+    max-width: 120px;
   }
 
-  @media screen and (max-width: 500px) {
-    .title {
-      font-size: 54px;
-    }
-
-    .sub-title {
-      font-size: 28px;
-    }
-  }
-`;
-
-export const styWrapper = css`
-  color: #fff;
-  margin-top:20px;
-
-  img {
+  img.logo {
     max-width: 180px;
   }
 
   h1 {
-    font-size: 100px;
+    font-size: 7rem;
     line-height: 1.5;
     font-family: 'Cookie', cursive;
     color: #fff;
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 4rem;
     color: #fff;
     font-weight: 400;
     font-family: 'Cookie', cursive;
@@ -68,6 +49,7 @@ export const styWrapperCount = css`
   border-radius: 50%;
   position: relative;
   animation: pulse 1s ease infinite;
+  text-align: center;
   color: #fff;
 
   h3 {
