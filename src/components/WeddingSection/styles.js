@@ -1,18 +1,21 @@
 import { css } from '@emotion/core';
-import Background from '@assets/images/bg-wedding.jpg';
 
 export const styWrapper = css`
-  background-image: url(${Background});
-  background-size: cover;
-  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b4958f;
   width: 100%;
   min-height: 70vh;
-  color: #fff !important;
 
-  .bismillah {
-    color: #fff !important;
-    font-size: 16px !important;
-    font-family: sans-serif;
+  .button {
+    margin: auto;
+    margin-top: 16px;
+    width: fit-content;
+  }
+
+  .event {
+    max-width: 700px;
   }
 
   .sub-title {
@@ -26,11 +29,6 @@ export const styWrapper = css`
     }
   }
 
-  .text__live {
-    text-align: center;
-    margin-top: 24px;
-  }
-
   .main-font {
     margin-top: 12px;
 
@@ -42,11 +40,7 @@ export const styWrapper = css`
 `;
 
 export const styButtonWrapper = css`
-  display: flex;
-  justify-content: center;
-  align-items: center;
   animation: pulse 2s ease infinite;
-  margin-top: -8px;
   border: none;
 
   .img__wrapper {
@@ -58,15 +52,5 @@ export const styButtonWrapper = css`
     border-radius: 24px;
     background: #f14e95;
     padding: 8px 16px;
-  }
-
-  i {
-    margin-right: 4px;
-  }
-
-  img {
-    max-width: 28px;
-    margin-right: 8px;
-    margin-bottom: 0;
   }
 `;

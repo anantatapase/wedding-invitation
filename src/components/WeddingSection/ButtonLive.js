@@ -1,24 +1,18 @@
 import React from 'react';
 
-import IconIg from './assets/instagram.png';
+// import IconIg from './assets/instagram.png';
 import { styButtonWrapper } from './styles';
 
-function ButtonLive() {
+function SaveTheDateButton() {
   return (
-    <div className="row">
-      <div className="col-md-12">
-        <p className="text__live">Hadir secara virtual melalui siaran langsung instagram: </p>
-        <a href="https://www.instagram.com/dindadipoyono/" target="_blank" rel="noreferrer">
-          <div css={styButtonWrapper}>
-            <div className="img__wrapper">
-              <img src={IconIg} alt="Live IG" />
-              <span>@dindadipoyono</span>
-            </div>
-          </div>
-        </a>
+    <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDYzdjg2dTYzYm1xajcydjg0dXFxYWhrdTUgYW5hbnRhdGFwYXNlMzFAbQ&tmsrc=anantatapase31%40gmail.com" target="_blank" rel="noreferrer">
+      <div css={styButtonWrapper}>
+        <div className="img__wrapper">
+          <span>Add to calendar</span>
+        </div>
       </div>
-    </div>
+    </a>
   );
 }
 
-export default React.memo(ButtonLive);
+export default React.memo(SaveTheDateButton);

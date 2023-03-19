@@ -14,7 +14,6 @@ import PhotoSection from '@components/PhotoSection/Loadable';
 import WishesSection from '@components/WishesSection';
 import ConfirmationSection from '@components/ConfirmationSection';
 import FooterSection from '@components/FooterSection';
-import CovidSection from '@components/Covid19';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
 
 function Home({ location }) {
@@ -28,9 +27,8 @@ function Home({ location }) {
     <MainLayout>
       <WelcomeSection />
       <HelloSection />
-      <WeddingSection isInvitation={isInvitation} />
-      {isInvitation && <CovidSection />}
-      {isInvitation && <LocationSection />}
+      <WeddingSection />
+      <LocationSection />
       <StorySection />
       <PhotoSection />
       <WishesSection />

@@ -4,6 +4,7 @@ import Background from '@assets/images/bg-welcome.jpg';
 export const styContainer = css`
   width: 100%;
   height: 100vh;
+  min-height: 700px;
 `;
 
 export const styBackground = css`

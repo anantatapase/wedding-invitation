@@ -13,7 +13,7 @@ function HelloSection() {
           <div className="mb-4 text-center fh5co-heading">
             <h2 className="main-font">Hello!</h2>
             <p className="invite-title">
-              You are invited to the wedding of
+              Meet the bride and groom...
             </p>
           </div>
         </div>
