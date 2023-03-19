@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
 import WeddingInfoBox from './WeddingInfoBox';
-import SaveTheDateButton from './ButtonLive';
+import SaveTheDateButton from './Button';
 import { styWrapper } from './styles';
 
 function WeddingSection() {

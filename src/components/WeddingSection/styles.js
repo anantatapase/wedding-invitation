@@ -14,10 +14,6 @@ export const styWrapper = css`
     width: fit-content;
   }
 
-  .event {
-    max-width: 700px;
-  }
-
   .sub-title {
     color: #fff !important;
     font-size: 16px;

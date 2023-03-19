@@ -28,8 +28,8 @@ function Home({ location }) {
       <WelcomeSection />
       <HelloSection />
       <WeddingSection />
-      <LocationSection />
       <StorySection />
+      <LocationSection />
       <PhotoSection />
       <WishesSection />
       <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
