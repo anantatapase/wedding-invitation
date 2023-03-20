@@ -11,9 +11,9 @@ function WeddingSection() {
       <div id="fh5co-event" className="text-center" css={styWrapper}>
         <div className="fh5co-heading">
           <h2 className="main-font main-font__wedding">Save the Date</h2>
-          <span>
+          <p style={{color:'#f4efeffc'}}>
             We request the pleasure of your company at our wedding ceremony on...
-          </span>
+          </p>
         </div>
         <div className="event">
           <WeddingInfoBox

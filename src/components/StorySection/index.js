@@ -12,11 +12,11 @@ function StorySection() {
     <Fragment>
       <div id="fh5co-couple-story">
         <div className="container">
-          <div className="text-center fh5co-heading animate-box">
-            <h2 className="main-font">Events</h2>
-            <p>Our special events are...</p>
-          </div>
-          <div className="row">
+            <div className="text-center fh5co-heading animate-box">
+              <h2 className="main-font">Events</h2>
+              <p>Our special events are...</p>
+            </div>
+          <div className="container">
             <ul className="timeline animate-box">{renderStories()}</ul>
           </div>
         </div>

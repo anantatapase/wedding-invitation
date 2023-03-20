@@ -44,7 +44,7 @@ function HelloSection() {
             <div className="desc-bride">
               <h3 className="main-font">Priti Mishra</h3>
               <p className="parent-name parent-name__top">
-                Daughter of Apsarnath <br />& Nilam Mishra
+                Daughter of Apsarnath <br />& Neelam Mishra
               </p>
             </div>
           </div>

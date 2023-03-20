@@ -532,7 +532,7 @@ figure {
 }
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-panel {
-    width: 75% !important;
+    width: 65% !important;
   }
   .timeline > li > .timeline-panel:before {
     top: 30px;
@@ -565,8 +565,8 @@ figure {
 }
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-badge {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height:100px;
     margin-left: -20px !important;
   }
 }

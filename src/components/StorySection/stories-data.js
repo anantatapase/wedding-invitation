@@ -8,11 +8,11 @@ export const stories = [
   {
     title: 'Mehndi Ceremony',
     date: '11 May 2023, 1 pm',
-    description: 'Join us for this colorful tradition where mehndi adorn the hand and life takes on a new color.',
+    description: 'Join us for this colorful tradition where mehndi adorns the hand and life takes on a new color.',
     image: MehndiImg,
   },
   {
-    title: 'Engagment Ceremony',
+    title: 'Engagement Ceremony',
     date: '11 May 2023, 6 pm',
     description: 'Share in our joy as we mark the beginning of our journey together with our engagement.',
     image: EngagmentImg,
