@@ -10,7 +10,7 @@ function LocationSection() {
         <div className="container">
           <div className="fh5co-heading animate-box">
             <h2 className="main-font">Location</h2>
-            <p className="sub-title" style={{ color: '#f4efeffc' }}>
+            <p style={{ color: '#f4efeffc' }}>
               <strong>Shree Celebrations and Resort</strong>
               <br />
               NH7, Kolhi, Jam Road, Hinganghat, Maharashtra

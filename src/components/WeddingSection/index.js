@@ -10,9 +10,10 @@ function WeddingSection() {
   return (
     <Fragment>
       <div id="fh5co-event" className="text-center" css={styWrapper}>
+        <div className='container'>
         <div className="fh5co-heading">
           <h2 className="main-font">Save the Date</h2>
-          <p style={{ color: '#f4efeffc' }}>
+          <p style={{ color: '#f4efeffc'}}>
             We request the pleasure of your company at our wedding ceremony on...
           </p>
         </div>
@@ -33,6 +34,8 @@ function WeddingSection() {
           </div>
         </div>
       </div>
+        </div>
+        
     </Fragment>
   );
 }

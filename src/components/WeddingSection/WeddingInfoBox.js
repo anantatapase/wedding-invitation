@@ -13,11 +13,12 @@ function WeddingInfoBox({ title, date, time, location, description }) {
         <i className="icon-clock"></i>
         <span>{time}</span>
       </div>
+      <div className="event-col"></div>
       <div>
         <i className="icon-location-pin"></i>
         <span dangerouslySetInnerHTML={{ __html: location }} />
       </div>
-      <div className="event-col"></div>
+      
     </div >
   );
 }

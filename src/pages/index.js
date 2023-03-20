@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React from 'react';
 import { object } from 'prop-types';
 import getQueryValue from '@helpers/getQueryValue';
 /**
@@ -11,8 +11,7 @@ import WeddingSection from '@components/WeddingSection';
 import LocationSection from '@components/LocationSection';
 import StorySection from '@components/StorySection';
 import PhotoSection from '@components/PhotoSection/Loadable';
-import WishesSection from '@components/WishesSection';
-import ConfirmationSection from '@components/ConfirmationSection';
+import ThankYouSection from '@components/ThankYouSection';
 import FooterSection from '@components/FooterSection';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
 
@@ -31,8 +30,7 @@ function Home({ location }) {
       <StorySection />
       <LocationSection />
       <PhotoSection />
-      <WishesSection />
-      <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
+      <ThankYouSection/>
       <FooterSection isInvitation={isInvitation} />
       <FloatingMusic />
     </MainLayout>

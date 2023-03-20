@@ -442,6 +442,7 @@ figure {
 #fh5co-event .event-wrap span {
   display: block;
   color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
