@@ -7,15 +7,6 @@ import CountContainer from './CountContainer';
 import { styContainer, styBackground } from './styles';
 
 function WelcomeSection() {
-
-  try {
-    const myAudio = document.getElementById('myAudio');
-    // myAudio.play();
-  } catch {
-    console.error('FAILED_TO_PLAY_MUSIC');
-  }
-
-
   return (
     <div css={styContainer}>
       <header

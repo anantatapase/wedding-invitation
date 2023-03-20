@@ -1,32 +1,27 @@
 import React from 'react';
-import { string, bool } from 'prop-types';
-import { Link } from 'gatsby';
 
-import { styWrapper, styFlex } from './styles';
+import { styWrapper } from './styles';
 
-function ConfirmationSection({ isInvitation, guestName, codeLink }) {
-  // if (!isInvitation) return null;
-
+function ThankYouSection() {
   return (
     <div id="fh5co-started" css={styWrapper}>
-      <div className="container">
-          <div className="text-center fh5co-heading">
-            <h2 className="main-font"></h2>
-            <p className="sub-title" style={{ color: '#f4efeffc' }}>
-              <strong>Shree Celebrations and Resort</strong>
-              <br />
-              NH7, Kolhi, Jam Road, Hinganghat, Maharashtra
-            </p>
-          </div>
+      <div className="container text-center">
+        <div className="fh5co-heading">
+          <h2 className="main-font">Awaiting!</h2>
+          <p style={{ color: '#f4efeffc' }}>
+            Your gracious presence
+          </p>
         </div>
+        <span style={{ color: '#f4efeffc' }}>
+          With gratitude to God and joy in our hearts, we along with our families request the honor of your presence at our wedding.
+          We would be delighted to have your company as we unite in marriage, surrounded by our loved ones.
+        </span>
       </div>
+    </div>
   );
 }
 
-ConfirmationSection.propTypes = {
-  codeLink: string.isRequired,
-  isInvitation: bool.isRequired,
-  guestName: string.isRequired,
+ThankYouSection.propTypes = {
 };
 
-export default React.memo(ConfirmationSection);
+export default React.memo(ThankYouSection);

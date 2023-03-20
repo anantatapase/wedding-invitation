@@ -26,7 +26,7 @@ function PhotoSection() {
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font">#TheGallery</h2>
               <p>
-                Our moments together..  
+                Our moments together...
               </p>
               <br></br>
               <p>

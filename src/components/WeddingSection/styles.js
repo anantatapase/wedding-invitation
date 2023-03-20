@@ -13,4 +13,9 @@ export const styWrapper = css`
     margin-top: 16px;
     width: fit-content;
   }
+
+  .event {
+    display: inline-block;
+  }
+
 `;

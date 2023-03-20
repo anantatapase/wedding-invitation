@@ -14,7 +14,7 @@ function WeddingSection() {
         <div className="fh5co-heading">
           <h2 className="main-font">Save the Date</h2>
           <p style={{ color: '#f4efeffc'}}>
-            We request the pleasure of your company at our wedding ceremony on...
+            We request the pleasure of your company ...
           </p>
         </div>
         <div className="event">
