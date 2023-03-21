@@ -3,7 +3,7 @@ import { string, bool } from 'prop-types';
 
 function StoryItem({ image, title, date, description, isInverted }) {
   return (
-    <li className={isInverted && `timeline-inverted`}>
+    <li className={isInverted ? `timeline-inverted` : ''}>
       {image && <div className="timeline-badge" style={{ backgroundImage: `url(${image})` }} />}
       <div className="timeline-panel">
         <div className="timeline-heading">

@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { bool } from 'prop-types';
 
 import WeddingInfoBox from './WeddingInfoBox';
 import Button from '../BouncingButton';
@@ -41,7 +40,6 @@ function WeddingSection() {
 }
 
 WeddingSection.propTypes = {
-  isInvitation: bool.isRequired,
 };
 
 export default React.memo(WeddingSection);

@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { bool } from 'prop-types';
 
 function FooterSection() {
   return (
@@ -37,7 +36,6 @@ function FooterSection() {
 }
 
 FooterSection.propTypes = {
-  isInvitation: bool.isRequired,
 };
 
 export default React.memo(FooterSection);

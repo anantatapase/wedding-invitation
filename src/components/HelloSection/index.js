@@ -29,11 +29,11 @@ function HelloSection() {
               </p>
             </div>
           </div>
-          <p className="heart-1">
+          <div className="heart-1">
             <p className="pulse text-center">
               <i className="icon-heart2"></i>
             </p>
-          </p>
+          </div>
           <div className="heart-2">
             <i className="icon-heart2"></i>
           </div>

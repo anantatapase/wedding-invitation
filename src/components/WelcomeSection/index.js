@@ -1,5 +1,4 @@
 import React from 'react';
-import { object, string, bool, func } from 'prop-types';
 
 import WeddingLogo from '@assets/images/wedding-logo.png';
 import Ganesh from '@assets/images/ganesh.png'

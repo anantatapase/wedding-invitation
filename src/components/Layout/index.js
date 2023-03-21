@@ -8,7 +8,7 @@ import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
 const IMAGE_URL = `https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEORqsDdDyM9aPc62i2lOIaaCjc4YbsxJmeCcnHuREmv3HcMHLwynX4nHNSyTH5MvhnhrE0UFcPfxSPoCqfqDjq00lwlrAg=w3360-h1550`;
-const META_DESCRIPTION = `You're invited to witness Priti and Ananta's Wedding. Join Us in Celebrations! 🎉`;
+const META_DESCRIPTION = `You're invited to witness Ananta and Priti's Wedding. Join Us in Celebrations! 🎉`;
 
 function MainLayout({ children }) {
   return (
@@ -20,12 +20,23 @@ function MainLayout({ children }) {
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="The Wedding of Priti & Ananta ♥" />
-        <meta property="og:image" content={IMAGE_URL} />
-        <meta property="og:url" content="https://anantprit.netlify.app" />
+        {/* <!-- Site Name, Title, and Description to be displayed --> */}
         <meta property="og:site_name" content="Priti ❤️Ananta Wedding" />
+        <meta property="og:title" content="The Wedding of Priti & Ananta" />
         <meta property="og:description" content={META_DESCRIPTION} />
-        <meta name="twitter:title" content="The Wedding of Priti & Ananta ♥" />
+
+        {/* <!-- Image to display fb or WhatsApp--> */}
+        <meta property="og:image" itemprop="image" content={IMAGE_URL} />
+        <meta property="og:image:secure_url" itemprop="image" content={IMAGE_URL} />
+        <meta property="og:image:type" content="image/jpeg"></meta>
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+
+        {/* <!-- Website to visit when clicked in fb or WhatsApp--> */}
+        <meta property="og:url" content="https://anantprit.netlify.app" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:title" content="The Wedding of Priti & Ananta" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
         <meta name="twitter:url" content="https://anantprit.netlify.app" />

@@ -15,7 +15,7 @@ function ThankYouSection() {
           </p>
         </div>
         <div>
-          <img className="photo-us" src={imageUs} alt="photo of us" />
+          <img className="photo-us" src={imageUs} alt="us" />
         </div>
         <span>
           With gratitude to God and joy in our hearts, we along with our families request the honor of your presence at our wedding.

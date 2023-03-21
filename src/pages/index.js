@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { object } from 'prop-types';
-import getQueryValue from '@helpers/getQueryValue';
 /**
  * List of local components
  */
@@ -16,18 +15,6 @@ import FooterSection from '@components/FooterSection';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
 
 function Home() {
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     try {
-  //       const myAudio = document.getElementById('myAudio');
-  //       console.log("play", myAudio)
-  //       myAudio.play();
-  //     } catch {
-  //       console.error('FAILED_TO_PLAY_MUSIC');
-  //     }
-  //   }, 1500)
-  // }, []);
-
   return (
     <MainLayout>
       <FloatingMusic />
