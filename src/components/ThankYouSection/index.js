@@ -1,6 +1,8 @@
 import React from 'react';
 
 import { styWrapper } from './styles';
+import imageUs from '@assets/images/us.png'
+import Button from '../BouncingButton';
 
 function ThankYouSection() {
   return (
@@ -12,10 +14,20 @@ function ThankYouSection() {
             Your gracious presence
           </p>
         </div>
-        <span style={{ color: '#f4efeffc' }}>
+        <div>
+          <img className="photo-us" src={imageUs} alt="photo of us" />
+        </div>
+        <span>
           With gratitude to God and joy in our hearts, we along with our families request the honor of your presence at our wedding.
           We would be delighted to have your company as we unite in marriage, surrounded by our loved ones.
-        </span>
+        </span> 
+        <div className="button" >
+          <div>
+            <Button
+              link={"https://drive.google.com/file/d/1NXiXTWGXUdpDyH6z5A9aEYaZ2Fyssjej/view"}
+              title="Video Invitation" />
+          </div>
+        </div>
       </div>
     </div>
   );

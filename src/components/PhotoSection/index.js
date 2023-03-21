@@ -7,7 +7,7 @@ function PhotoSection() {
   const renderYoutubeVideo = () => {
     return (
       <iframe
-        title="Pre-Wedding Dinda & Indra"
+        title="Pre-Wedding"
         width="100%"
         height="360px"
         src="https://www.youtube.com/embed/75w39OY7N-k"
@@ -30,7 +30,9 @@ function PhotoSection() {
               </p>
               <br></br>
               <p>
-                Coming soon..  
+                Stay Tuned..
+                <br></br>
+                Coming soon...
               </p>
             </div>
           </div>

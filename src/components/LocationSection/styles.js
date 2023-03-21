@@ -9,4 +9,9 @@ export const styWrapper = css`
     margin-top: 16px;
     width: fit-content;
   }
+
+  iframe {
+    max-width: 700px;
+    border: 0px;
+  }
 `;

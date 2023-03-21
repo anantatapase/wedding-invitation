@@ -39,6 +39,14 @@ export const styBackground = css`
     font-weight: 400;
     font-family: 'Cookie', cursive;
   }
+
+  p {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, cursive;
+
+  }
 `;
 
 export const styWrapperCount = css`

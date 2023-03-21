@@ -20,7 +20,7 @@ function WelcomeSection() {
         <img className="logo" src={WeddingLogo} alt="wedding-ananta-priti" />
         <h2>The Wedding of</h2>
         <h1 className="title">Ananta &amp; Priti</h1>
-        <h2>#AnantPrit</h2>
+        <p>#AnantYePritHai</p>
         <CountContainer />
       </header >
     </div>

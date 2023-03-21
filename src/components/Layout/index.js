@@ -2,19 +2,19 @@ import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { node } from 'prop-types';
 
-import Favicon from '@assets/images/dinda-indra.png';
+import Favicon from '@assets/images/favicon-logo.png';
 import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-const IMAGE_URL = ``;
+const IMAGE_URL = `https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEORqsDdDyM9aPc62i2lOIaaCjc4YbsxJmeCcnHuREmv3HcMHLwynX4nHNSyTH5MvhnhrE0UFcPfxSPoCqfqDjq00lwlrAg=w3360-h1550`;
 const META_DESCRIPTION = `You're invited to witness Priti and Ananta's Wedding. Join Us in Celebrations! 🎉`;
 
 function MainLayout({ children }) {
   return (
     <Fragment>
       <Helmet>
-        <title>Priti ❤️ Ananta Wedding</title>
+        <title>Priti ❤️Ananta Wedding</title>
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href={Favicon} />
@@ -23,7 +23,7 @@ function MainLayout({ children }) {
         <meta property="og:title" content="The Wedding of Priti & Ananta ♥" />
         <meta property="og:image" content={IMAGE_URL} />
         <meta property="og:url" content="https://anantprit.netlify.app" />
-        <meta property="og:site_name" content="The Wedding of Priti & Ananta ♥" />
+        <meta property="og:site_name" content="Priti ❤️Ananta Wedding" />
         <meta property="og:description" content={META_DESCRIPTION} />
         <meta name="twitter:title" content="The Wedding of Priti & Ananta ♥" />
         <meta name="twitter:description" content={META_DESCRIPTION} />

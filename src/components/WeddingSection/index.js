@@ -22,7 +22,7 @@ function WeddingSection() {
             title="Wedding"
             time="7pm Onwards"
             date="Friday, 12 May 2023"
-            location="Shree Celebration and Resort, Hinganghat"
+            location="Shree Celebrations and Resort, Hinganghat"
             description=""
           />
         </div>

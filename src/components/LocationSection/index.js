@@ -19,7 +19,6 @@ function LocationSection() {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7920.293266961091!2d110.4250066322774!3d-6.992004594949059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708ca11d0e6f61%3A0x8c359fe27c58195d!2sHARRIS%20Hotel%20Sentraland%20Semarang!5e0!3m2!1sen!2sid!4v1590977401700!5m2!1sen!2sidhttps://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29884.17994638868!2d78.8538072!3d20.5667095!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd365bfcf47e983%3A0xd1c93e9238a70041!2sSHREE%20Celebrations%20and%20Resorts!5e0!3m2!1sen!2sin!4v1679320931038!5m2!1sen!2sin"
             width="95%"
-            style={{ maxWidth: '950px', border: '0' }}
             height="300"
             allowFullScreen
             aria-hidden="false"
