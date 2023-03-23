@@ -14,23 +14,18 @@ function MainLayout({ children }) {
   return (
     <Fragment>
       <Helmet>
-        <title>Priti ❤️Ananta Wedding</title>
-
-        {/* Favicon */}
-        <link rel="icon" type="image/png" href={Favicon} />
+        {/* <!-- Image to display fb or WhatsApp--> */}
+        <meta property="og:image:secure_url" itemprop="image" content={IMAGE_URL} />
+        <meta property="og:image" itemprop="image" content={IMAGE_URL} />
+        <meta property="og:image:type" content="image/png"></meta>
+        <meta property="og:image:width" content="256" />
+        <meta property="og:image:height" content="256" />
 
         {/* font and SEO tags */}
         {/* <!-- Site Name, Title, and Description to be displayed --> */}
         <meta property="og:site_name" content="Priti ❤️Ananta Wedding" />
         <meta property="og:title" content="The Wedding of Priti & Ananta" />
         <meta property="og:description" content={META_DESCRIPTION} />
-
-        {/* <!-- Image to display fb or WhatsApp--> */}
-        <meta property="og:image" itemprop="image" content={IMAGE_URL} />
-        <meta property="og:image:secure_url" itemprop="image" content={IMAGE_URL} />
-        <meta property="og:image:type" content="image/jpeg"></meta>
-        <meta property="og:image:width" content="256" />
-        <meta property="og:image:height" content="256" />
 
         {/* <!-- Website to visit when clicked in fb or WhatsApp--> */}
         <meta property="og:url" content="https://anantprit.netlify.app/" />
@@ -43,6 +38,10 @@ function MainLayout({ children }) {
         <meta name="twitter:url" content="https://anantprit.netlify.app" />
         <meta name="twitter:card" content="summary" />
 
+        <title>Priti ❤️Ananta Wedding</title>
+
+        {/* Favicon */}
+        <link rel="icon" type="image/png" href={Favicon} />
         <link
           href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700"
           rel="stylesheet"
