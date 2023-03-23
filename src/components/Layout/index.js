@@ -7,7 +7,7 @@ import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-const IMAGE_URL = `https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEORqsDdDyM9aPc62i2lOIaaCjc4YbsxJmeCcnHuREmv3HcMHLwynX4nHNSyTH5MvhnhrE0UFcPfxSPoCqfqDjq00lwlrAg=w3360-h1550`;
+const IMAGE_URL = `https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQIm078zfCgAdy1k0e8xz3-byYRj-Ex91TKvZLe4G2FL5PbhfiShI7lzK_F_NqtZb2waOTuw0KcXFd16sSLMkLwIK0AWw`;
 const META_DESCRIPTION = `You're invited to witness Ananta and Priti's Wedding. Join Us in Celebrations! 🎉`;
 
 function MainLayout({ children }) {
@@ -29,12 +29,13 @@ function MainLayout({ children }) {
         <meta property="og:image" itemprop="image" content={IMAGE_URL} />
         <meta property="og:image:secure_url" itemprop="image" content={IMAGE_URL} />
         <meta property="og:image:type" content="image/jpeg"></meta>
-        <meta property="og:image:width" content="300" />
-        <meta property="og:image:height" content="300" />
+        <meta property="og:image:width" content="256" />
+        <meta property="og:image:height" content="256" />
 
         {/* <!-- Website to visit when clicked in fb or WhatsApp--> */}
-        <meta property="og:url" content="https://anantprit.netlify.app" />
+        <meta property="og:url" content="https://anantprit.netlify.app/" />
         <meta property="og:type" content="website" />
+        <meta property="og:updated_time" content="1679551738" />
 
         <meta name="twitter:title" content="The Wedding of Priti & Ananta" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
