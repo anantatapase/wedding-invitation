@@ -7,7 +7,7 @@ import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-const IMAGE_URL = `https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQIm078zfCgAdy1k0e8xz3-byYRj-Ex91TKvZLe4G2FL5PbhfiShI7lzK_F_NqtZb2waOTuw0KcXFd16sSLMkLwIK0AWw`;
+const IMAGE_URL = `https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQclBKVZ8oWqxcegJ_mA33y1oIA-Y-ebmgZcFKgCeMl0IpbCkh7Zi7yPLjPH_QD6_6Wwjsj6F0yyPqqxAV1Z64OcczG8A`;
 const META_DESCRIPTION = `You're invited to witness Ananta and Priti's Wedding. Join Us in Celebrations! 🎉`;
 
 function MainLayout({ children }) {
@@ -17,9 +17,10 @@ function MainLayout({ children }) {
         {/* <!-- Image to display fb or WhatsApp--> */}
         <meta property="og:image:secure_url" itemprop="image" content={IMAGE_URL} />
         <meta property="og:image" itemprop="image" content={IMAGE_URL} />
-        <meta property="og:image:type" content="image/png"></meta>
+        <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="256" />
         <meta property="og:image:height" content="256" />
+        <meta property="og:image:alt" content="description" />
 
         {/* font and SEO tags */}
         {/* <!-- Site Name, Title, and Description to be displayed --> */}
